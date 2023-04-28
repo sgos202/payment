@@ -1,0 +1,133 @@
+.app-container {
+  background-color: #eeeeee;
+}
+
+.main-container {
+  min-height: 100vh;
+  padding-right: 0;
+}
+
+tfoot {
+  border: 1px solid #eeeeee;
+  text-align: right;
+}
+
+.saleTotalTr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  border: 1px solid rgb(194, 194, 194);
+  border-left: none;
+  border-right: none;
+
+  td {
+    padding: 24px 0;
+
+  }
+
+  .totalTd {
+    display: inline-flex;
+  }
+}
+
+.productTr {
+  td {
+    padding-bottom: 8px;
+
+    &:last-child {
+      padding-bottom: 12px;
+    }
+  }
+}
+
+.printIcon {
+  text-align: right;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.giftIcon {
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btnHeight {
+  height: 45px;
+}
+
+.productsTbody {
+  td {
+    padding: 12px;
+    border-bottom-width: 0;
+  }
+}
+
+.rightAligned {
+  text-align: right;
+}
+
+.productsThead {
+  display: flexbox;
+  margin-bottom: 22px !important;
+
+  tr {
+    border-bottom: 1px solid lightgray
+  }
+}
+
+.productSku {
+  padding-left: 12px;
+  line-height: 1.2;
+}
+
+.btn-disabled {
+  background-color: rgb(170, 170, 170) !important;
+  color: white !important;
+  border: none !important;
+  cursor: not-allowed;
+}
+
+.saleTable {
+  width: 100%;
+
+  td {
+    white-space: nowrap;
+  }
+
+  td:nth-child(1) {
+    width: 1%;
+  }
+}
+
+.totalTd {
+  b {
+    padding-right: 8px;
+  }
+}
+
+.payment-container {
+  background-color: white;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.checkout-container {
+  tr {
+    margin: 24px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .row {
+    flex-direction: column;
+  }
+}

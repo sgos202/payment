@@ -1,0 +1,44 @@
+.checkout-summary {
+    display: block;
+    padding: 16px;
+    justify-content: flex-end;
+    background-color: lightgrey;
+  }
+  
+  .checkout-container {
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  .pay-details {
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .pay-button {
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .total-cost {
+    margin-left: auto;
+  }
+  
+  .total-items {
+    padding-left: 8px;
+    font-size: 8px;
+    display: flex;
+    align-items: self-end;
+    vertical-align: bottom;
+    height: 100%;
+    bottom: 7px;
+    position: relative;
+}
+  
+  
